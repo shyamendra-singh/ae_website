@@ -1,0 +1,119 @@
+body{
+    font-family: "Nunito Sans", sans-serif; 
+}
+
+.my-container {
+    background-color: white;
+    margin-top: 2.928vw;
+    display: flex;
+}
+
+.container-3 {
+    background-color: rgb(255, 255, 255);
+    /* flex-grow: 1; */
+    margin-left: 4.026vw;
+    margin-right: 3%;
+    width: 71.66vw;
+}
+
+.container-4 {
+    background-color: rgb(255, 255, 255);
+    border-left: 0.2vw solid rgb(130, 134, 132);
+    position: sticky;
+}
+
+.faculty-img{
+    float:left;
+    margin-right: 1.098vw;
+    height: 11.713vw;
+    border: 1px solid black;
+}
+
+.staff-detail{
+    width: 31.479vw;
+    margin-right: 10.249vw;
+}
+
+.staff-contact{
+    width: fit-content;
+    font-weight: 500;
+    font-size: 1.171vw;
+}
+
+.phone{
+    margin-bottom: 0.366vw;
+}
+
+.faculty-name{
+    font-size: 1.318vw;
+    font-weight: bold;
+    margin-bottom: 0.293vw;
+    text-transform: uppercase;
+}
+
+.designation{
+    font-size: 1.245vw;
+    font-style: italic;
+}
+
+.faculty-name a{
+    color: black;
+    text-decoration: none;
+}
+
+.faculty-name:hover{
+    text-decoration: underline;
+}
+
+.dept-title{
+    margin-bottom: 3.66vw;
+    font-size: 1.611vw;
+    padding-left: 0.732vw;
+    padding-bottom: 0.22vw;
+    border-left: 0.3vw solid #166D43;
+    border-top-left-radius: 0.22vw;
+    border-bottom-left-radius: 0.22vw;
+    border-bottom: 0.218vw solid #166D43;
+}
+.staff{
+    display: flex;
+    margin-bottom: 2.928vw;
+}
+
+.email a{
+    color: blue;
+    text-decoration: none;
+}
+
+.email :hover{
+    text-decoration: underline;
+}
+
+/* container-2 */
+
+.related-links{
+    font-size: 1.245vw;
+    font-weight: bold;
+    margin-bottom: 2.196vw;
+    color: rgb(80, 80, 80);
+    padding-left: .9vw;
+    
+}
+
+.container-4 ul li{
+    position: relative;
+    margin-top: 1.318vw;
+    margin-left: 14%;
+    list-style:disc;
+    font-size: 1.245vw;
+    font-weight: 500;
+}
+
+.container-4 ul li a{
+    color: #015521;
+    text-decoration: none;
+}
+
+.container-4 ul li :hover{
+    text-decoration: underline;
+}

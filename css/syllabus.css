@@ -1,0 +1,57 @@
+
+
+.syllabus-main {
+    margin-top: 40px;
+    display: flex;
+}
+
+.syllabus-side {
+    background-color: rgb(255, 255, 255);
+    justify-items: left;
+    /* left: 1055px; */
+    padding-left: 20px;
+    padding-right: 18px;
+    border-right: 2px solid rgb(130, 134, 132);
+    width: 200px;
+}
+
+.syllabus-side ul li {
+    margin-top: 16px;
+    margin-left: 25px;
+    list-style: disc;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.syllabus-title{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(80, 80, 80)
+}
+
+.a :hover{
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.syllabus-side ul li a {
+    color: #015521;
+    text-decoration: none;
+}
+
+.syllabus-side ul li :hover {
+    text-decoration: underline;
+}
+
+.syllabus-container{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.syllabus-pdf{
+    width: 800px;
+    height: 800px;
+
+}
