@@ -23,31 +23,28 @@ body, html{
     position: relative;
     left: 7.2vw;
     text-align: left;
-    /* margin-top: 70px;
-    margin-bottom: 12px;*/
     background-color: rgb(255, 255, 255);
 }
 
 .menu-bar ul{
     display: inline-flex;
     list-style: none;    
+    border-right: .1em #0b22183b solid;
 }
 
 .menu-bar ul li :hover{
     color: white;
     background: #22533d;
+    transition: 0.3s;
 }
 
 .menu-bar ul li{
-    /* background: #015521; */
     display: inline-block;
     position: relative;
     width:auto;
     font-weight: 600;
     font-size: 1.171vw;
-    
 }
-
 
 .menu-bar ul li a{
     display: block;
@@ -62,32 +59,28 @@ body, html{
 
 .menu-bar ul li ul.dropdown li{
     display: block;
-    color: white;
-    padding-top: 0.15vw;
-    padding-bottom: 0.15vw;
 }
 
-.menu-bar ul li ul.dropdown li a{
-    color: white;
+#drop:hover{
+    color: #015521;
+    background: white;
 }
 
 .menu-bar ul li ul.dropdown{
     width: 130%;
-    background: #22533d;
+    background: #ffffff;
     position: absolute;
     z-index: 999;
     display: none;
+    border-left: .1em #0b22183b solid;
+    border-right: .1em #0b22183b solid;
+    border-bottom: .1em #0b22183b solid;
 }
 
 .menu-bar ul li:hover ul.dropdown{
-    color: white;
     display: block;
 }
 
-.menu-bar ul.dropdown li:hover{
-    background: #a8b3ac;
-    animation-duration: 1ms;
-}
 .department-image img{
     margin-top: 0.146vw;
     align-self: center;
