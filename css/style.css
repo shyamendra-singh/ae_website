@@ -233,7 +233,7 @@ body, html{
     margin-top: 5vw;
     display: flex;
     background: #0f291b;
-    gap: 10.981vw;
+    gap: 3.981vw;
 }
 
 #footer-items{
@@ -243,6 +243,11 @@ body, html{
 
 #footer-items ul li{
     font-size: 1.171vw;
+}
+
+#footer-items ul li:hover{
+    color: white;
+    text-decoration: underline;
 }
 
 #map{
